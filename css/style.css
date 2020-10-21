@@ -2,9 +2,7 @@ body,
 html {
     height: 100%;
     box-sizing: border-box;
-   
-    
-
+    width: 100%;
 }
 
 
@@ -1103,12 +1101,70 @@ footer {
 
 
     body {
-       background-color: #F7F7F7;
+       background-color: ;
     }
+
     .logo {
         display: block;
-        margin-left: 2.5em;
+        margin-left: 4em;
+        margin-top: 1em;
     }
+
+    .hero-image {
+        height: 70%;   
+        width: 422px;  
+         
+    }
+
+
+    .hero-text {
+        font-size: 7px;
+        height: 40%;
+        width: 80%;
+        margin-left: 5em;
+    }
+
+    #icon-bar-md {
+        display: inline;
+        position: absolute;
+        padding: 5px;
+        margin-top: 80px;
+        margin-left: -4.6em;
+        
+     }
+
+     .title-text-cards {
+         text-align: center;
+         margin-left: 2em;
+     }
+
+     .title-text-cards h2 {
+         font-size: 30px;
+     }
+
+     .our-services {
+        text-align: left;
+        margin-left: -4em;
+        padding: 3em; 
+        width: 106%;
+        
+     }
+ 
+     .boxes {
+         width: 100%;
+         margin-left: 1em;
+         
+     }
+     .box {
+         width: 50%;
+     }
+     .link-services {
+         margin-left: 5.5em;
+     }
+
+     .video-iframe {
+         width: auto;
+     }
 
 
 
