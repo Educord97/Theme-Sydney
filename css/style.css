@@ -1092,15 +1092,29 @@ footer {
    .icon-bottom-top {
        display: block;
    }
-
-   
-    
-
-
-
     .title-top-about {
         font-size: 27px;
         font-weight: 500;
     }
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+    body {
+       background-color: #F7F7F7;
+    }
+    .logo {
+        display: block;
+        margin-left: 2.5em;
+    }
+
+
+
+
+
+
+
 
 }
