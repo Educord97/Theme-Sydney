@@ -937,6 +937,8 @@ footer {
     color: #D83A3A;
 }
 
+
+
 @media screen and (max-width: 700px) {
 
     .top-nav {
@@ -1099,27 +1101,32 @@ footer {
 
 
     body {
-       background-color: ;
+       width: ;
     }
+
 
     .logo {
         display: block;
-        margin-left: 4em;
+        margin-left: 3em;
         margin-top: 1em;
     }
 
     .hero-image {
-        height: 70%;   
-        width: 422px;  
+        height: 70%; 
+        width: 100%;  
+    
          
     }
-
 
     .hero-text {
         font-size: 7px;
         height: 40%;
         width: 80%;
-        margin-left: 5em;
+        margin-left: -1em;
+    }
+
+    .icon-count {
+        width: 360px;
     }
 
     #icon-bar-md {
@@ -1127,7 +1134,7 @@ footer {
         position: absolute;
         padding: 5px;
         margin-top: 80px;
-        margin-left: -4.6em;
+        margin-left: -5.1em;
         
      }
 
@@ -1137,32 +1144,128 @@ footer {
      }
 
      .title-text-cards h2 {
-         font-size: 30px;
+         font-size: 25px;
      }
 
      .our-services {
         text-align: left;
         margin-left: -4em;
         padding: 3em; 
-        width: 106%;
+        width:  90%;
+
         
      }
  
      .boxes {
          width: 100%;
-         margin-left: 1em;
+         margin-left: -1em;
          
      }
      .box {
          width: 50%;
      }
      .link-services {
-         margin-left: 5.5em;
+         margin-left: 4.5em;
      }
 
      .video-iframe {
          width: auto;
      }
+
+     .our-work {
+        text-align: left;
+        margin-left: -4em;
+        padding: 3em; 
+        width: 320px;
+        
+     }
+
+     .boxes-work {
+         width: 100%;
+     }
+ 
+     .box-image {
+        margin-left: -4em;
+        width: 85%;
+         
+     }
+
+     .text-images-cards {
+        text-align: center;
+        width: 100%;
+        margin-left: 1.5em;
+        
+    }
+
+
+    .items-list-image {
+       margin-right: -2em;
+
+    
+        
+    }
+
+    .items-list-image  a {
+        font-size: 16px;
+
+
+    }
+
+    .Father {
+      
+        text-align: center;
+        background-image: url(../img/back.jpg);
+        width: 100%;
+    }
+    
+    .asp-icon {
+        margin-top: -2em;
+    }
+
+    .container-Main {
+        margin-top: -1.5em;
+        margin-left: -1em;
+        height: 50%;
+    }
+
+     .containerCarouselKeyframe, .container2, .container3  {
+     animation-duration: 220s;
+    }
+
+    .text-carousel {
+        line-height: 30px;
+        width: 50%;
+        font-size: 16px;
+    }
+
+
+    .image-team {
+        width: 100%;
+        margin-left: -8em;
+        
+    }
+
+    .text-images-cards h2 {
+        font-size: 25px;
+    }
+
+    .text-images-cards p {
+        font-size: 18px;
+    }
+
+    .image-latest {
+        width: 100%;
+        margin-left: -8em;
+    }
+
+    .curious {
+        width: 100%;
+    }
+
+    .container-thumbs {
+        margin-left: -10px;
+        width: 276px;
+    }
 
 
 
